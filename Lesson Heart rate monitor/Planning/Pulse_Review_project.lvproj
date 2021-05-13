@@ -63,6 +63,17 @@
 			<Item Name="Stage 3" Type="Folder">
 				<Item Name="Stage 3.1 Getting the hardware out.vi" Type="VI" URL="../stage_examples/Stage 3/Stage 3.1 Getting the hardware out.vi"/>
 				<Item Name="Stage 3.2 Getting the GUI out.vi" Type="VI" URL="../stage_examples/Stage 3/Stage 3.2 Getting the GUI out.vi"/>
+				<Item Name="Stage 3.3 Placing Process into subVIs.vi" Type="VI" URL="../stage_examples/Stage 3/Stage 3.3 Placing Process into subVIs.vi"/>
+				<Item Name="HRM-User_events.ctl" Type="VI" URL="../stage_examples/Stage 3/HRM-User_events.ctl"/>
+				<Item Name="HRM-init_cluster.ctl" Type="VI" URL="../stage_examples/Stage 3/HRM-init_cluster.ctl"/>
+				<Item Name="HRM-Process_main.vi" Type="VI" URL="../stage_examples/Stage 3/HRM-Process_main.vi"/>
+				<Item Name="Stage 3.4 Placing hardware into subVIs.vi" Type="VI" URL="../stage_examples/Stage 3/Stage 3.4 Placing hardware into subVIs.vi"/>
+				<Item Name="HRM-Hardware_main.vi" Type="VI" URL="../stage_examples/Stage 3/HRM-Hardware_main.vi"/>
+				<Item Name="Stage 3.6 Placing GUI into subVIs.vi" Type="VI" URL="../stage_examples/Stage 3/Stage 3.6 Placing GUI into subVIs.vi"/>
+				<Item Name="HRM-init_main.vi" Type="VI" URL="../stage_examples/Stage 3/HRM-init_main.vi"/>
+				<Item Name="HRM-close_main.vi" Type="VI" URL="../stage_examples/Stage 3/HRM-close_main.vi"/>
+				<Item Name="HRM-GUI_main.vi" Type="VI" URL="../stage_examples/Stage 3/HRM-GUI_main.vi"/>
+				<Item Name="Stage 3.5 Placing init and close into subVIs.vi" Type="VI" URL="../stage_examples/Stage 3/Stage 3.5 Placing init and close into subVIs.vi"/>
 			</Item>
 		</Item>
 		<Item Name="VIs" Type="Folder">
@@ -84,7 +95,6 @@
 			<Item Name="PM-filter_waveform.vi" Type="VI" URL="../VIs/PM-filter_waveform.vi"/>
 			<Item Name="PM-running_average.vi" Type="VI" URL="../VIs/PM-running_average.vi"/>
 		</Item>
-		<Item Name="HRM-User_events.ctl" Type="VI" URL="../stage_examples/Stage 3/HRM-User_events.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
