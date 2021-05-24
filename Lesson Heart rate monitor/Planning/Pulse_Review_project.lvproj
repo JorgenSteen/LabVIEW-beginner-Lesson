@@ -48,46 +48,8 @@
 			</Item>
 			<Item Name="PM-Pulse_Measurement-Launcher.vi" Type="VI" URL="../PM-Pulse_Measurement-Launcher.vi"/>
 		</Item>
-		<Item Name="stage_examples" Type="Folder">
-			<Item Name="Stage 1" Type="Folder">
-				<Item Name="Stage 1 - myDAQ" Type="Folder">
-					<Item Name="Stage 1.1 myDAQ - getting it working.vi" Type="VI" URL="../stage_examples/Stage 1/Stage 1 - myDAQ/Stage 1.1 myDAQ - getting it working.vi"/>
-					<Item Name="Stage 1.2 myDAQ - Compartementlizing.vi" Type="VI" URL="../stage_examples/Stage 1/Stage 1 - myDAQ/Stage 1.2 myDAQ - Compartementlizing.vi"/>
-				</Item>
-			</Item>
-			<Item Name="Stage 2" Type="Folder">
-				<Item Name="Stage 2.1 myDAQ - Collecting A larger sample size.vi" Type="VI" URL="../stage_examples/Stage 2/Stage 2.1 myDAQ - Collecting A larger sample size.vi"/>
-				<Item Name="Stage 2.2 myDAQ - Filtering the signal.vi" Type="VI" URL="../stage_examples/Stage 2/Stage 2.2 myDAQ - Filtering the signal.vi"/>
-				<Item Name="Stage 2.3 myDAQ - Measuring Heartrate.vi" Type="VI" URL="../stage_examples/Stage 2/Stage 2.3 myDAQ - Measuring Heartrate.vi"/>
-			</Item>
-			<Item Name="Stage 3" Type="Folder">
-				<Item Name="Stage 3.1 Getting the hardware out.vi" Type="VI" URL="../stage_examples/Stage 3/Stage 3.1 Getting the hardware out.vi"/>
-				<Item Name="Stage 3.2 Getting the GUI out.vi" Type="VI" URL="../stage_examples/Stage 3/Stage 3.2 Getting the GUI out.vi"/>
-				<Item Name="Stage 3.3 Placing Process into subVIs.vi" Type="VI" URL="../stage_examples/Stage 3/Stage 3.3 Placing Process into subVIs.vi"/>
-				<Item Name="Stage 3.4 Placing hardware into subVIs.vi" Type="VI" URL="../stage_examples/Stage 3/Stage 3.4 Placing hardware into subVIs.vi"/>
-				<Item Name="Stage 3.5 Placing GUI into subVIs.vi" Type="VI" URL="../stage_examples/Stage 3/Stage 3.5 Placing GUI into subVIs.vi"/>
-				<Item Name="Stage 3.6 Placing init and close into subVIs.vi" Type="VI" URL="../stage_examples/Stage 3/Stage 3.6 Placing init and close into subVIs.vi"/>
-			</Item>
-			<Item Name="Modules" Type="Folder">
-				<Item Name="GUI" Type="Folder">
-					<Item Name="HRM-GUI_main.vi" Type="VI" URL="../stage_examples/Stage 3/HRM-GUI_main.vi"/>
-				</Item>
-				<Item Name="InitClose" Type="Folder">
-					<Item Name="HRM-init_main.vi" Type="VI" URL="../stage_examples/Stage 3/HRM-init_main.vi"/>
-					<Item Name="HRM-close_main.vi" Type="VI" URL="../stage_examples/Stage 3/HRM-close_main.vi"/>
-					<Item Name="HRM-init_cluster.ctl" Type="VI" URL="../stage_examples/Stage 3/HRM-init_cluster.ctl"/>
-					<Item Name="HRM-User_events.ctl" Type="VI" URL="../stage_examples/Stage 3/HRM-User_events.ctl"/>
-				</Item>
-				<Item Name="HW" Type="Folder">
-					<Item Name="HRM-Hardware_main.vi" Type="VI" URL="../stage_examples/Stage 3/HRM-Hardware_main.vi"/>
-				</Item>
-				<Item Name="Process" Type="Folder">
-					<Item Name="HRM-Process_main.vi" Type="VI" URL="../stage_examples/Stage 3/HRM-Process_main.vi"/>
-				</Item>
-			</Item>
-			<Item Name="Stage 4" Type="Folder">
-				<Item Name="Stage 4.1 Adding Error Communication.vi" Type="VI" URL="../stage_examples/Stage 3/Stage 4.1 Adding Error Communication.vi"/>
-			</Item>
+		<Item Name="stage_examples" Type="Folder" URL="../stage_examples">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="VIs" Type="Folder">
 			<Item Name="Device-Specific" Type="Folder">
@@ -107,6 +69,12 @@
 			<Item Name="PM-control_waveform_size.vi" Type="VI" URL="../VIs/PM-control_waveform_size.vi"/>
 			<Item Name="PM-filter_waveform.vi" Type="VI" URL="../VIs/PM-filter_waveform.vi"/>
 			<Item Name="PM-running_average.vi" Type="VI" URL="../VIs/PM-running_average.vi"/>
+		</Item>
+		<Item Name="Modules" Type="Folder">
+			<Item Name="GUI" Type="Folder"/>
+			<Item Name="InitClose" Type="Folder"/>
+			<Item Name="HW" Type="Folder"/>
+			<Item Name="Process" Type="Folder"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
