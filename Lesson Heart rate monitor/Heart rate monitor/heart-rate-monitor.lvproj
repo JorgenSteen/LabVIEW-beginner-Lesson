@@ -10,7 +10,21 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Testing-mydaq.vi" Type="VI" URL="../Tests/Testing-mydaq.vi"/>
+		<Item Name="Lesson 1" Type="Folder">
+			<Item Name="HRM-AQN-input_clust.ctl" Type="VI" URL="../Lesson 1/HRM-AQN-input_clust.ctl"/>
+			<Item Name="HRM-AQN-myDAQ_close.vi" Type="VI" URL="../Lesson 1/HRM-AQN-myDAQ_close.vi"/>
+			<Item Name="HRM-AQN-myDAQ_init.vi" Type="VI" URL="../Lesson 1/HRM-AQN-myDAQ_init.vi"/>
+			<Item Name="HRM-AQN-myDAQ_read.vi" Type="VI" URL="../Lesson 1/HRM-AQN-myDAQ_read.vi"/>
+			<Item Name="Lesson 1-1 Getting started with myDAQ.vi" Type="VI" URL="../Lesson 1/Lesson 1-1 Getting started with myDAQ.vi"/>
+			<Item Name="Lesson 1-2 Compartmentalizing the acquisition.vi" Type="VI" URL="../Lesson 1/Lesson 1-2 Compartmentalizing the acquisition.vi"/>
+		</Item>
+		<Item Name="Lesson 2" Type="Folder">
+			<Item Name="HRM-AQN-filter_waveform.vi" Type="VI" URL="../Lesson 2/HRM-AQN-filter_waveform.vi"/>
+			<Item Name="HRM-AQN-Set_waveform_size.vi" Type="VI" URL="../Lesson 2/HRM-AQN-Set_waveform_size.vi"/>
+			<Item Name="Lesson 2-1 Collecting a larger sample size.vi" Type="VI" URL="../Lesson 2/Lesson 2-1 Collecting a larger sample size.vi"/>
+			<Item Name="Lesson 2-2 Filtering the Signal.vi" Type="VI" URL="../Lesson 2/Lesson 2-2 Filtering the Signal.vi"/>
+			<Item Name="Lesson 2-3 simple heart rate monitor.vi" Type="VI" URL="../Lesson 2/Lesson 2-3 simple heart rate monitor.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
@@ -159,7 +173,12 @@
 				<Item Name="DAQmx Timing (Sample Clock).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Sample Clock).vi"/>
 				<Item Name="DAQmx Timing (Use Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Use Waveform).vi"/>
 				<Item Name="DAQmx Timing.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing.vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
