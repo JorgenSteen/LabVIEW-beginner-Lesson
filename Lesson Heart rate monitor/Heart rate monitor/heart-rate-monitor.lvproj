@@ -11,40 +11,50 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Launcher" Type="Folder">
-			<Item Name="Lesson 3 Launcher.vi" Type="VI" URL="../Launcher/Lesson 3 Launcher.vi"/>
-		</Item>
-		<Item Name="Lesson 1" Type="Folder">
-			<Item Name="Lesson 1-1 Getting started with myDAQ.vi" Type="VI" URL="../Lesson 1/Lesson 1-1 Getting started with myDAQ.vi"/>
-			<Item Name="Lesson 1-2 Compartmentalizing the acquisition.vi" Type="VI" URL="../Lesson 1/Lesson 1-2 Compartmentalizing the acquisition.vi"/>
-		</Item>
-		<Item Name="Lesson 2" Type="Folder">
-			<Item Name="Lesson 2-1 Collecting a larger sample size.vi" Type="VI" URL="../Lesson 2/Lesson 2-1 Collecting a larger sample size.vi"/>
-			<Item Name="Lesson 2-2 Filtering the Signal.vi" Type="VI" URL="../Lesson 2/Lesson 2-2 Filtering the Signal.vi"/>
-			<Item Name="Lesson 2-3 simple heart rate monitor.vi" Type="VI" URL="../Lesson 2/Lesson 2-3 simple heart rate monitor.vi"/>
-		</Item>
-		<Item Name="Init" Type="Folder">
-			<Item Name="HRM-init-user_events.ctl" Type="VI" URL="../init/HRM-init-user_events.ctl"/>
-			<Item Name="HRM-init-cluster.ctl" Type="VI" URL="../init/HRM-init-cluster.ctl"/>
-			<Item Name="HRM-init-main.vi" Type="VI" URL="../init/HRM-init-main.vi"/>
-			<Item Name="HRM-close-main.vi" Type="VI" URL="../init/HRM-close-main.vi"/>
-		</Item>
-		<Item Name="Process" Type="Folder">
-			<Item Name="HRM-process-main.vi" Type="VI" URL="../process/HRM-process-main.vi"/>
-		</Item>
-		<Item Name="AQN" Type="Folder">
-			<Item Name="mydaq" Type="Folder">
-				<Item Name="HRM-AQN-myDAQ_close.vi" Type="VI" URL="../aqn/HRM-AQN-myDAQ_close.vi"/>
-				<Item Name="HRM-AQN-myDAQ_init.vi" Type="VI" URL="../aqn/HRM-AQN-myDAQ_init.vi"/>
-				<Item Name="HRM-AQN-myDAQ_read.vi" Type="VI" URL="../aqn/HRM-AQN-myDAQ_read.vi"/>
+		<Item Name="Lessons" Type="Folder">
+			<Item Name="Lesson 1" Type="Folder">
+				<Item Name="Lesson 1-1 Getting started with myDAQ.vi" Type="VI" URL="../Lesson 1/Lesson 1-1 Getting started with myDAQ.vi"/>
+				<Item Name="Lesson 1-2 Compartmentalizing the acquisition.vi" Type="VI" URL="../Lesson 1/Lesson 1-2 Compartmentalizing the acquisition.vi"/>
 			</Item>
-			<Item Name="HRM-AQN-main.vi" Type="VI" URL="../aqn/HRM-AQN-main.vi"/>
-			<Item Name="HRM-AQN-input_clust.ctl" Type="VI" URL="../aqn/HRM-AQN-input_clust.ctl"/>
-			<Item Name="HRM-AQN-filter_waveform.vi" Type="VI" URL="../aqn/HRM-AQN-filter_waveform.vi"/>
-			<Item Name="HRM-AQN-Set_waveform_size.vi" Type="VI" URL="../aqn/HRM-AQN-Set_waveform_size.vi"/>
+			<Item Name="Lesson 2" Type="Folder">
+				<Item Name="Lesson 2-1 Collecting a larger sample size.vi" Type="VI" URL="../Lesson 2/Lesson 2-1 Collecting a larger sample size.vi"/>
+				<Item Name="Lesson 2-2 Filtering the Signal.vi" Type="VI" URL="../Lesson 2/Lesson 2-2 Filtering the Signal.vi"/>
+				<Item Name="Lesson 2-3 simple heart rate monitor.vi" Type="VI" URL="../Lesson 2/Lesson 2-3 simple heart rate monitor.vi"/>
+			</Item>
 		</Item>
-		<Item Name="GUI" Type="Folder">
-			<Item Name="HRM-GUI-main.vi" Type="VI" URL="../GUI/HRM-GUI-main.vi"/>
+		<Item Name="Application" Type="Folder">
+			<Item Name="Launcher" Type="Folder">
+				<Item Name="Lesson 3 Launcher.vi" Type="VI" URL="../Launcher/Lesson 3 Launcher.vi"/>
+			</Item>
+			<Item Name="Init" Type="Folder">
+				<Item Name="HRM-init-user_events.ctl" Type="VI" URL="../init/HRM-init-user_events.ctl"/>
+				<Item Name="HRM-init-cluster.ctl" Type="VI" URL="../init/HRM-init-cluster.ctl"/>
+				<Item Name="HRM-init-main.vi" Type="VI" URL="../init/HRM-init-main.vi"/>
+				<Item Name="HRM-close-main.vi" Type="VI" URL="../init/HRM-close-main.vi"/>
+				<Item Name="HRM-init-start_state.ctl" Type="VI" URL="../init/HRM-init-start_state.ctl"/>
+			</Item>
+			<Item Name="Process" Type="Folder">
+				<Item Name="HRM-process-main.vi" Type="VI" URL="../process/HRM-process-main.vi"/>
+			</Item>
+			<Item Name="AQN" Type="Folder">
+				<Item Name="mydaq" Type="Folder">
+					<Item Name="HRM-AQN-myDAQ_close.vi" Type="VI" URL="../aqn/HRM-AQN-myDAQ_close.vi"/>
+					<Item Name="HRM-AQN-myDAQ_init.vi" Type="VI" URL="../aqn/HRM-AQN-myDAQ_init.vi"/>
+					<Item Name="HRM-AQN-myDAQ_read.vi" Type="VI" URL="../aqn/HRM-AQN-myDAQ_read.vi"/>
+				</Item>
+				<Item Name="HRM-AQN-main.vi" Type="VI" URL="../aqn/HRM-AQN-main.vi"/>
+				<Item Name="HRM-AQN-input_clust.ctl" Type="VI" URL="../aqn/HRM-AQN-input_clust.ctl"/>
+				<Item Name="HRM-AQN-filter_waveform.vi" Type="VI" URL="../aqn/HRM-AQN-filter_waveform.vi"/>
+				<Item Name="HRM-AQN-Set_waveform_size.vi" Type="VI" URL="../aqn/HRM-AQN-Set_waveform_size.vi"/>
+				<Item Name="HRM-AQN-hardware_selector.ctl" Type="VI" URL="../aqn/HRM-AQN-hardware_selector.ctl"/>
+				<Item Name="HRM-AQN-simulated_read.vi" Type="VI" URL="../aqn/HRM-AQN-simulated_read.vi"/>
+			</Item>
+			<Item Name="GUI" Type="Folder">
+				<Item Name="HRM-GUI-main.vi" Type="VI" URL="../GUI/HRM-GUI-main.vi"/>
+			</Item>
+			<Item Name="common" Type="Folder">
+				<Item Name="HRM-common-send_status.vi" Type="VI" URL="../common/HRM-common-send_status.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -198,6 +208,7 @@
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
