@@ -12,7 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Launcher" Type="Folder">
-			<Item Name="Lesson 3 Launcher.vi" Type="VI" URL="../Launcher/Lesson 3 Launcher.vi"/>
+			<Item Name="Lesson Launcher.vi" Type="VI" URL="../Launcher/Lesson Launcher.vi"/>
 		</Item>
 		<Item Name="Lesson 1" Type="Folder">
 			<Item Name="Lesson 1-1 Getting started with myDAQ.vi" Type="VI" URL="../Lesson 1/Lesson 1-1 Getting started with myDAQ.vi"/>
@@ -28,9 +28,21 @@
 			<Item Name="HRM-init-cluster.ctl" Type="VI" URL="../init/HRM-init-cluster.ctl"/>
 			<Item Name="HRM-init-main.vi" Type="VI" URL="../init/HRM-init-main.vi"/>
 			<Item Name="HRM-close-main.vi" Type="VI" URL="../init/HRM-close-main.vi"/>
+			<Item Name="HRM-common-Status_feedback.vi" Type="VI" URL="../init/HRM-common-Status_feedback.vi"/>
+			<Item Name="HRM-init-Intial State.ctl" Type="VI" URL="../init/HRM-init-Intial State.ctl"/>
+			<Item Name="HRM-init-hardware_selector.ctl" Type="VI" URL="../init/HRM-init-hardware_selector.ctl"/>
 		</Item>
 		<Item Name="Process" Type="Folder">
 			<Item Name="HRM-process-main.vi" Type="VI" URL="../process/HRM-process-main.vi"/>
+			<Item Name="HRM-process-simple_filter_waveform.vi" Type="VI" URL="../process/HRM-process-simple_filter_waveform.vi"/>
+			<Item Name="HRM-process-Set_waveform_size.vi" Type="VI" URL="../process/HRM-process-Set_waveform_size.vi"/>
+			<Item Name="HRM-process-loop_data.ctl" Type="VI" URL="../process/HRM-process-loop_data.ctl"/>
+			<Item Name="HRM-process-manual_heartrate.vi" Type="VI" URL="../process/HRM-process-manual_heartrate.vi"/>
+			<Item Name="HRM-process-add_waveform.vi" Type="VI" URL="../process/HRM-process-add_waveform.vi"/>
+			<Item Name="HRM-process-share_data.vi" Type="VI" URL="../process/HRM-process-share_data.vi"/>
+			<Item Name="HRM-process-filter_waveform.vi" Type="VI" URL="../process/HRM-process-filter_waveform.vi"/>
+			<Item Name="HRM-process-calculate_heartrate.vi" Type="VI" URL="../process/HRM-process-calculate_heartrate.vi"/>
+			<Item Name="HRM-process-Pulse settings.ctl" Type="VI" URL="../process/HRM-process-Pulse settings.ctl"/>
 		</Item>
 		<Item Name="AQN" Type="Folder">
 			<Item Name="mydaq" Type="Folder">
@@ -40,8 +52,7 @@
 			</Item>
 			<Item Name="HRM-AQN-main.vi" Type="VI" URL="../aqn/HRM-AQN-main.vi"/>
 			<Item Name="HRM-AQN-input_clust.ctl" Type="VI" URL="../aqn/HRM-AQN-input_clust.ctl"/>
-			<Item Name="HRM-AQN-filter_waveform.vi" Type="VI" URL="../aqn/HRM-AQN-filter_waveform.vi"/>
-			<Item Name="HRM-AQN-Set_waveform_size.vi" Type="VI" URL="../aqn/HRM-AQN-Set_waveform_size.vi"/>
+			<Item Name="HRM-AQN-Simulated_read.vi" Type="VI" URL="../aqn/HRM-AQN-Simulated_read.vi"/>
 		</Item>
 		<Item Name="GUI" Type="Folder">
 			<Item Name="HRM-GUI-main.vi" Type="VI" URL="../GUI/HRM-GUI-main.vi"/>
@@ -198,6 +209,7 @@
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
