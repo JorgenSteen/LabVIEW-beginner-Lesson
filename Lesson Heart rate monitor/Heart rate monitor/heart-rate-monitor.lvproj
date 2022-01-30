@@ -57,6 +57,7 @@
 		<Item Name="GUI" Type="Folder">
 			<Item Name="HRM-GUI-main.vi" Type="VI" URL="../GUI/HRM-GUI-main.vi"/>
 		</Item>
+		<Item Name="HRM-GUI-main-test.vi" Type="VI" URL="../GUI/HRM-GUI-main-test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
