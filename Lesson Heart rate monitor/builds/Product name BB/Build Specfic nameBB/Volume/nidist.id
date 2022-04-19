@@ -1,0 +1,10 @@
+[Volume Id]
+DistributionGUID={72283AFF-8DDE-4F21-830C-F21332D26288}
+DistPackageGUID={1819F102-1DF2-45BB-9947-795BAA54B09E}
+DistributionVersion=1.0.0
+DistributionType=MDF
+DistributionLanguage=9
+Volume=1
+TotalNumberOfVolumesInDistribution=1
+ExePath=installernameBB.exe
+UpdateInfoFile=supportfiles\updateInfo.xml
